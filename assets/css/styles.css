@@ -1,4 +1,55 @@
 body {
     font-family: "Open Sans", sans-serif;
-    background-color: #66999b;
+    background-color: #9fd6ef;
+}
+body {
+    font-family: var(--primary-font);
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+    text-transform: uppercase;
+}
+
+.card {
+    border: none;
+    background-color: #b6b292;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.card-title {
+    color: #010508;
+}
+.btn-custom {
+    background-color: #daa520;
+    color: #fff;
+}
+.btn-custom:hover {
+    background-color: #b8860b;
+}
+.sub-heading-color {
+    color: var(--highlight-color);
+}
+
+.section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Navbar */
+
+#navbar {
+    background-color: var(--primary-color);
+}
+
+#navbar .logo {
+    width: 30px;
+}
+
+/* Header */
+
+#header .lead {
+    font-family: var(--secondary-font);
 }
