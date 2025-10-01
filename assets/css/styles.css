@@ -51,6 +51,10 @@ h3 {
     object-fit: cover;
     width: 100%;
 }
+.resources-page .card:hover {
+    transform: translateY(-4px);
+    transition: transform 0.3s ease;
+}
 .btn-custom {
     background-color: #daa520;
     color: #fff;
