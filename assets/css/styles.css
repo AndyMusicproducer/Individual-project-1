@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
 body {
     font-family: "Open Sans", sans-serif;
     background-color: #9fd6ef;
@@ -52,4 +54,30 @@ h3 {
 
 #header .lead {
     font-family: var(--secondary-font);
+}
+#social-networks {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+#social-networks li a {
+    color: white;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+#social-networks li a:hover,
+#social-networks li a:focus {
+    color: #00aced;
+}
+/* Footer */
+.footer {
+    margin-top: auto;
+    background-color: #48b49b;
+    padding: 1rem 0;
+    text-align: center;
+    color: white;
 }
