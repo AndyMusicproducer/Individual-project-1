@@ -29,6 +29,8 @@ h3 {
 }
 .card-title {
     color: #010508;
+    font-size: clamp(1.2rem, 2vw, 1.5rem);
+    font-weight: 600;
 }
 .resources-page .card-img-top {
     height: 200px;
@@ -91,6 +93,11 @@ h3 {
     background: url("../images/man-in-park.webp") no-repeat center center/cover;
     position: relative;
     color: white;
+}
+.hero-text-box {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 0.5rem;
+    border-radius: 6px;
 }
 #cover-text {
     background-color: rgba(0, 0, 0, 0.4);
