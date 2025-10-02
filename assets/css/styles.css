@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
-root {
+:root {
     --primary-font: "Open Sans", sans-serif;
     --secondary-font: "Montserrat", sans-serif;
     --primary-color: #4682b4;
@@ -108,7 +108,7 @@ h3 {
     height: 400px;
     width: 100%;
     background: url("../images/man-in-park.webp") no-repeat center center/cover;
-    position: relative;
+    /* position: relative; */
     color: white;
 }
 .hero-text-box {
