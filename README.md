@@ -15,6 +15,7 @@ I selected Project 4 because mental health is a vital topic that deserves more v
 -   **HTML & CSS** – For semantic structure and styling
 -   **Bootstrap** – To ensure responsive design and consistent layout
 -   **Balsamiq** – Used to wireframe the site across smartphone, tablet, and desktop views
+-   **AI** I used AI for content creation, all the images displayed on the index are AI generated. I used AI on occasions to help me style code.
 
 ## Wireframing
 
